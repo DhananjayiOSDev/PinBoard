@@ -11,10 +11,13 @@ The purpose of the library is to abstract the downloading (images, pdf, zip, etc
 
 ## Project Structure
 
-We have used the MVC designe pattern for the development of this sample application also created the seperate framework ([MVDownloader]), This will be a reusable framework component. Following will be a project structure for the current application and MVDownloader framework.
+We have used the MVC designe pattern for the development of this sample application also created the seperate framework [MVDownloader](https://github.com/DhananjayiOSDev/MVDownloader), This will be a reusable framework component. Following will be a project structure for the current application and MVDownloader framework.
 
-[MVDownloader] (https://github.com/DhananjayiOSDev/MVDownloader)	
+[MVDownloader](https://github.com/DhananjayiOSDev/MVDownloader)	
 Please see following source code structure for MVDownloader framework. There are 3 main classes are used to create the framework.
+
+![MVDownloader](https://github.com/DhananjayiOSDev/PinBoard/blob/master/ScreenShots/MVDownloader.png)
+
 1. MVDownloader.swift : This class contains the all methods for MVDownloder framework such configureCacheLimit, downloadImage etc.
 2. MVNetworkHandler.swift : This class is used to implement actual URSession task methods and delegates for fetching the data from remote server.
 3. MVAPIWrapper.swift : This class is used to comunication between network handler class and controllers and viewmodels.
@@ -26,6 +29,8 @@ pod 'MVDownloader', :git => 'https://github.com/DhananjayiOSDev/MVDownloader.git
 PinBoard Project
 
 Please see the detail project structure for the PinBoard project, Source code structure is divided into three layers i.e. ApplicationLayer, BusinessLayer, DataAccessLayer
+
+![PinBoard](https://github.com/DhananjayiOSDev/PinBoard/blob/master/ScreenShots/PinBoard.png)
 
 1. ApplicationLayer : This group consist the viewcontrollers, constants, customviews(like UITableviewcells), resourcesetc.
 2. BusinessLayer : This group consist the all Models, Utilities and custom classes.
@@ -47,6 +52,7 @@ Functionalities Covered:
 Third Party Libraries Used
 
 [SwiftyJson](https://github.com/SwiftyJSON/SwiftyJSON)
+
 [Toast-Swift](https://github.com/scalessec/Toast-Swift)
 
 
