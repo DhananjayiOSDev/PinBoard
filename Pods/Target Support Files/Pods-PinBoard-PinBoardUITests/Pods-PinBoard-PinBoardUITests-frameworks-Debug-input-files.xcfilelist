@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-PinBoard-PinBoardUITests/Pods-PinBoard-PinBoardUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MVDownloader/MVDownloader.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework

@@ -1,0 +1,25 @@
+{
+  "name": "MVDownloader",
+  "version": "0.1.0",
+  "summary": "This library is used to download different types of files.",
+  "homepage": "https://github.com/DhananjayiOSDev/MVDownloader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dhananjay Pawar": "dhanufordevelopment@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/DhananjayiOSDev/MVDownloader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": "UIKit",
+  "source_files": "MVDownloader/**/*.{swift}",
+  "resources": "MVDownloader/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

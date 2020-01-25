@@ -1,0 +1,32 @@
+PODS:
+  - MVDownloader (0.1.0)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (4.0.1)
+
+DEPENDENCIES:
+  - MVDownloader (from `https://github.com/DhananjayiOSDev/MVDownloader.git`)
+  - SwiftyJSON
+  - Toast-Swift (~> 4.0.1)
+
+SPEC REPOS:
+  trunk:
+    - SwiftyJSON
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  MVDownloader:
+    :git: https://github.com/DhananjayiOSDev/MVDownloader.git
+
+CHECKOUT OPTIONS:
+  MVDownloader:
+    :commit: 518d524a2366c747ac4add38846d4caa22c8c552
+    :git: https://github.com/DhananjayiOSDev/MVDownloader.git
+
+SPEC CHECKSUMS:
+  MVDownloader: 712f274e1f5a7b45faa032591e94a096d8834f75
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+
+PODFILE CHECKSUM: 17e63bbcd5e85d5320b9c86abd35efedebe4cbca
+
+COCOAPODS: 1.8.4
